@@ -1,0 +1,2 @@
+# granit-strapi
+ Granit Strapi
