@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tenants_recommendations",
+  "info": {
+    "singularName": "tenants-recommendation",
+    "pluralName": "tenants-recommendations",
+    "displayName": "Tenants Recommendations"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProjectSelect": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three"
+      ],
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Quote": {
+      "type": "string",
+      "required": true
+    },
+    "TenantImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

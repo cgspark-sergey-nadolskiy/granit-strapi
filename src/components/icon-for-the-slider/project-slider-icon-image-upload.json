@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_icon_for_the_slider_project_slider_icon_image_uploads",
+  "info": {
+    "displayName": "ProjectSliderIconImageUpload"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

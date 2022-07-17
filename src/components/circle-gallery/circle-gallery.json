@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_circle_gallery_circle_galleries",
+  "info": {
+    "displayName": "Circle gallery"
+  },
+  "options": {},
+  "attributes": {
+    "ImageUpload": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Paragraph": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "Employees"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EmployeeImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Placeholder": {
+      "type": "string"
+    },
+    "EmployeeName": {
+      "type": "string"
+    },
+    "EmployeeRole": {
+      "type": "string"
+    },
+    "EmployeAbout": {
+      "type": "string"
+    }
+  }
+}
