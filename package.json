@@ -16,6 +16,9 @@
     "@strapi/strapi": "4.2.3",
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
+    "psql": "^0.0.1",
+    "react-scripts": "^5.0.1",
+    "strapi-plugin-slugify": "^2.2.2",
     "strapi-provider-upload-imagekit": "^4.0.2"
   },
   "author": {
