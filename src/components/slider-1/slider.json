@@ -2,17 +2,18 @@
   "collectionName": "components_slider_1_sliders",
   "info": {
     "displayName": "Slider",
-    "icon": "vr-cardboard"
+    "icon": "vr-cardboard",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Title": {
       "type": "string",
@@ -21,6 +22,9 @@
     "Link": {
       "type": "string",
       "required": true
+    },
+    "ALT": {
+      "type": "string"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "Home Page"
+    "displayName": "Home Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,12 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "section_1_bg_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "section_2_title": {
       "type": "string",
@@ -28,12 +29,12 @@
       "required": true
     },
     "section_3_bg_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "section_3_circle_title": {
       "type": "string",
@@ -54,12 +55,12 @@
       "component": "slider-1.slider"
     },
     "section_5_bg_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "section_5_title": {
       "type": "string",
@@ -88,12 +89,40 @@
       "required": true
     },
     "section_7_photo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "page_title": {
+      "type": "string",
       "required": true
+    },
+    "meta_title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text",
+      "required": true
+    },
+    "meta_keywords": {
+      "type": "text",
+      "required": false
+    },
+    "section_1_bg_image_alt": {
+      "type": "string"
+    },
+    "section_3_bg_image_alt": {
+      "type": "string"
+    },
+    "section_7_alt": {
+      "type": "string"
+    },
+    "section_5_alt": {
+      "type": "string"
     }
   }
 }

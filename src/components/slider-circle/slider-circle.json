@@ -2,23 +2,25 @@
   "collectionName": "components_slider_circle_slider_circles",
   "info": {
     "displayName": "Slider Circle",
-    "icon": "images"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
       "type": "string",
       "required": true
     },
     "text": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "link": {
@@ -26,12 +28,15 @@
       "required": true
     },
     "icon": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ALT": {
+      "type": "string"
     }
   }
 }
