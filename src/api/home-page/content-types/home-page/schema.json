@@ -1,0 +1,99 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_1_bg_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "section_2_title": {
+      "type": "string",
+      "required": true
+    },
+    "section_2_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "section_3_bg_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "section_3_circle_title": {
+      "type": "string",
+      "required": true
+    },
+    "section_3_circle_text": {
+      "type": "string",
+      "required": true
+    },
+    "section_4_title": {
+      "type": "string",
+      "required": true
+    },
+    "Slider": {
+      "displayName": "Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "slider-1.slider"
+    },
+    "section_5_bg_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "section_5_title": {
+      "type": "string",
+      "required": true
+    },
+    "section_5_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "section_6_title": {
+      "type": "string",
+      "required": true
+    },
+    "SliderCircle": {
+      "displayName": "Slider Circle",
+      "type": "component",
+      "repeatable": true,
+      "component": "slider-circle.slider-circle"
+    },
+    "section_7_title": {
+      "type": "string",
+      "required": true
+    },
+    "section_7_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "section_7_photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

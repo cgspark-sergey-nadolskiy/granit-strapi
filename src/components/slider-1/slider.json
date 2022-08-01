@@ -1,11 +1,12 @@
 {
-  "collectionName": "components_icon_for_the_slider_project_slider_icon_image_uploads",
+  "collectionName": "components_slider_1_sliders",
   "info": {
-    "displayName": "ProjectSliderIconImageUpload"
+    "displayName": "Slider",
+    "icon": "vr-cardboard"
   },
   "options": {},
   "attributes": {
-    "Icon": {
+    "Image": {
       "allowedTypes": [
         "images"
       ],
@@ -17,8 +18,9 @@
       "type": "string",
       "required": true
     },
-    "URL": {
-      "type": "string"
+    "Link": {
+      "type": "string",
+      "required": true
     }
   }
 }

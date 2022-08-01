@@ -153,16 +153,6 @@
         }
       }
     },
-    "ProjectSliderIconImageUpload": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "icon-for-the-slider.project-slider-icon-image-upload"
-    },
     "project_s_apartments": {
       "type": "relation",
       "relation": "oneToMany",
